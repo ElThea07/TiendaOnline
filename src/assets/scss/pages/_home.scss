@@ -1,0 +1,85 @@
+#app {
+    margin: 0;
+    padding: 0;
+    // https://i.pinimg.com/originals/69/6a/95/696a95ed3008400c6168cab7379b2528.gif
+    background: url(https://static4.depositphotos.com/1000263/343/v/600/depositphotos_3430514-stock-illustration-camouflage-grey.jpg);
+    font-family: "Motiva Sans", Sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    }
+
+    .elden_img img {
+      width: 100%;
+      height: 105%;
+    }
+
+    .v-card__subtitle,
+.v-card__text,
+.v-card__title {
+  padding: 93px;
+}
+
+
+#title__h3 {
+    font-size: 25px;
+    cursor: pointer;
+    }
+
+    .user-title {
+      font-family: 'Kaushan Script', cursive;
+      font-size: 20px;
+    }
+    
+p,
+h2,
+h4,
+h5 {
+  font-weight: bold;
+  color: white;
+}
+.table__cart {
+  width: 100%;
+}
+.td__img {
+  width: 250px;
+  height: 300px;
+}
+.td__img img {
+  width: 250px;
+  height: 300px;
+}
+td {
+  width: 600px;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  background-color: rgba(243, 243, 243, 0.1);
+}
+.shopping * {
+  color: #ffffff;
+}
+.shopping {
+  margin-top: -100px;
+  display: flex;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  background-color: rgba(243, 243, 243, 0.1);
+  place-content: center;
+  place-items: center;
+  width: 450px;
+  height: 200px;
+}
+
+
+
+.banner-checkout {
+  padding-top: 300px;
+  color: #ffffff;
+}
+
+
+.bag-checkout {
+  backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.1);
+}

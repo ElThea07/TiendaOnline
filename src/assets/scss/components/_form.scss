@@ -1,0 +1,17 @@
+.form * {
+    color: #000;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  .form {
+    width: 90%;
+    margin: 0 auto;
+    backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.1);
+  }
+  .button__add {
+    margin-top: 15px;
+  }
+  .title__add {
+    color: #add9e6;
+  }

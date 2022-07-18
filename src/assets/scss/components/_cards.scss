@@ -1,0 +1,74 @@
+.precio {
+    display: flex;
+    place-content: center;
+    place-items: center;
+  }
+  .cards {
+    position: relative;
+    width: 250px;
+    height: 370px;
+    margin: 10px 0px 10px 0px;
+    cursor: default;
+  }
+  .cards .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .cards .img__card {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000000;
+    font-weight: bold;
+  }
+  .cards .img__card img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .cards .img__card h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  .cards .info__card {
+    transform: perspective(600px) rotateY(180deg);
+    background: url(https://media.istockphoto.com/vectors/black-military-camouflage-fabric-seamless-texture-camo-pattern-for-vector-id1261309158?b=1&k=6&m=1261309158&s=170667a&w=0&h=yTh_pO40iRy0M02G-p8ntCpJaauopGwMb3z9ickXbtI=);
+    background-size: cover;
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000000;
+  }
+  .cards .info__card h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+  }
+  .cards .info__card p {
+    letter-spacing: 1px;
+  }
+  .cards .cart__card {
+    border-top: solid 1px #ffffff;
+    height: 50px;
+    line-height: 50px;
+  }
+  .cards:hover .img__card {
+    transform: perspective(600px) rotateY(180deg);
+  }
+  .cards:hover .info__card {
+    transform: perspective(600px) rotateY(360deg);
+  }

@@ -1,18 +1,18 @@
 <template>
-<!-- VISTA DEL HOME PARA USUARIOS NO REGISTRADOS -->
+<!-- VISTA DEL HOME PARA USUARIOS REGISTRADOS -->
   <div>
     <v-carousel show-arrows-on-hover cycle>
-      <div v-for="(item, i) in infoProducts" :key="i">
-        <v-carousel-item
-          :src="item.src"
-          reverse-transition="fade-transition"
-          transition="fade-transition"
-          @click="updateInfo(item.id)"
-        ></v-carousel-item>
+      <div  v-for="item, i in infoProducts" :key="i">
+      <v-carousel-item
+        :src="item.src"
+        @click="updateInfo(item.id)"
+      >
+      </v-carousel-item>
       </div>
     </v-carousel>
 
-    <v-card class="d-flex justify-center black">
+    
+        <v-card class="d-flex justify-center black">
         <v-card-title>
           <v-icon size="50px" class="mx-4 white--text">mdi-steam</v-icon>
           <v-icon size="50px" class="mx-4 white--text"
@@ -32,7 +32,8 @@
         </v-card-title>
       </v-card>
 
-    <CarouselHome class="mb-10" />
+
+    <CarouselList class="mb-10" />
 
     <v-row justify="center" class="my-6">
       <v-col cols="7">
@@ -46,12 +47,13 @@
             @input="$store.dispatch('setSearch', $event.target.value)"
           />
         </form>
+
         <div>
           <div v-if="searchedProducts.length > 0">
-            <ProductHome
+            <ProductList
               v-if="searchedProducts.length > 0"
               :productList="searchedProducts"
-            ></ProductHome>
+            ></ProductList>
           </div>
           <div v-else>
             <div class="product-not-found my-5">Ups! Nada por aquí</div>
@@ -64,24 +66,24 @@
 
 <script>
 import { mapActions, mapState, mapGetters } from "vuex";
-import ProductHome from "../components/ProductHome.vue";
-import CarouselHome from "@/components/CarouselHome.vue";
+import ProductList from "../components/ProductList.vue";
+import CarouselList from "@/components/CarouselList.vue";
 export default {
-  name: "HomeView",
-  components: { ProductHome, CarouselHome },
+  name: "ProductsView",
+  components: { ProductList, CarouselList },
   data() {
     return {
-      routerEdit: "",
-    };
+      routerEdit:""
+    }
   },
   methods: {
     updateInfo(id) {
       this.routerEdit = id;
-      this.$router.push(`/home/${this.routerEdit}`);
+      this.$router.push(`/products/${this.routerEdit}`);
     },
   },
   computed: {
-    ...mapState(["search", "infoProducts"]),
+    ...mapState(["search","infoProducts"]),
     ...mapGetters(["searchedProducts"]),
     ...mapActions(["get_products", "get_infoProducts"]),
   },
@@ -90,6 +92,15 @@ export default {
     this.get_infoProducts;
   },
 };
+
+//
 </script>
 
-<style></style>
+<style>
+/* body *{
+  border: solid 1px red;
+} */
+.v-carousel .v-window-item {
+    cursor: pointer;
+}
+</style>

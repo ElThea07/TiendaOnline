@@ -1,0 +1,177 @@
+.button__neon {
+    display: inline-block;
+    padding: 14px 14px;
+    background-color: transparent;
+    border: 0;
+    color: #BDBDBD;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-out 200ms;
+    animation: efecto-texto-luz 3s ease-in infinite normal both;
+    font-size: 13px;
+  }
+  .button__neon:hover {
+    color: #FF3D00;
+    text-shadow: 0 0 3px #FF3D00;
+    animation: none !important;
+  }
+  .button__neon::after,
+  .button__neon::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -3px;
+    top: -3px;
+    border: 3px solid #BDBDBD;
+    border-radius: 8px;
+    transition: all ease-out 200ms;
+    animation: efecto-luz 3s ease-in infinite normal both;
+  }
+  .button__neon:hover::before,
+  .button__neon:hover::after {
+    border-color: #FF3D00;
+    animation: none !important;
+  }
+  .button__neon:hover::before {
+    filter: blur(4px);
+  }
+  .button__neon:active {
+    color: #BDBDBD;
+    text-shadow: 0 0 0 #BDBDBD;
+  }
+  .button__neon:active::before,
+  .button__neon:active::after {
+    border-color: #BDBDBD;
+    animation: none !important;
+  }
+  @keyframes efecto-texto-luz {
+    from,
+    20%,
+    36%,
+    to {
+      color: #BDBDBD;
+    }
+    23% {
+      color: #FF3D00;
+    }
+  }
+  
+  @keyframes efecto-luz {
+    from,
+    60%,
+    70%,
+    95% {
+      border-color: #BDBDBD;
+    }
+    65%,
+    to {
+      border-color: #FF3D00;
+    }
+  }
+
+
+  .button__user {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 0;
+    color: #BDBDBD;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-out 200ms;
+    animation: efecto-texto-luz 3s ease-in infinite normal both;
+  }
+   .button__user:hover {
+    color: #FF3D00;
+    text-shadow: 0 0 3px #FF3D00;
+    animation: none !important;
+  }
+  .button__user::after,
+  .button__user::before {
+    content: "";
+    position: absolute;
+    width: 103%;
+    height: 110%;
+    left: -3px;
+    top: -3px;
+    border-radius: 10px;
+    border: 3px solid #BDBDBD;
+    transition: all ease-out 200ms;
+    animation: efecto-luz 3s ease-in infinite normal both;
+  }
+  .button__user:hover::before,
+  .button__user:hover::after {
+    border-color: #FF3D00;
+    animation: none !important;
+  }
+  .button__user:hover::before {
+    filter: blur(4px);
+  }
+  .button__user:active {
+    color: #BDBDBD;
+    text-shadow: 0 0 0 #BDBDBD;
+  }
+  .button__user:active::before,
+  .button__user:active::after {
+    border-color: #BDBDBD;
+    animation: none !important;
+  }
+  @keyframes efecto-texto-luz {
+    from,
+    20%,
+    36%,
+    to {
+      color: #BDBDBD;
+    }
+    23% {
+      color: #FF3D00;
+    }
+  }
+  
+  @keyframes efecto-luz {
+    from,
+    60%,
+    70%,
+    95% {
+      border-color: #BDBDBD;
+    }
+    65%,
+    to {
+      border-color: #FF3D00;
+    }
+  }
+
+
+  //vuetify
+.theme--light.v-label {
+    color: #BDBDBD !important;
+}
+.theme--light.v-input input, .theme--light.v-input textarea {
+  color:white !important; 
+}
+.theme--light.v-text-field > .v-input__control > .v-input__slot:before {
+    border-color: #BDBDBD !important; 
+}
+
+
+
+.button__reset:hover a {
+  color: #FFC107;
+  padding: 20px 15px;
+  border: solid #FFC107 1px;
+  border-radius: 25px;
+}
+.button__reset {
+  background: transparent;
+  border: 0px;
+  padding: 20px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+}
