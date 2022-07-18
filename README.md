@@ -1,5 +1,10 @@
 # proyecto_final
 
+### video
+```
+https://www.youtube.com/watch?v=WdLVjBI2t-c
+```
+
 ## Project setup
 ```
 yarn install
