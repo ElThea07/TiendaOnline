@@ -1,4 +1,4 @@
-### Tienda Online
+# Tienda Online
 [Link TheaGames](https://theagames.netlify.app/home)
 ```
 user admin:thea@test.com
@@ -13,9 +13,8 @@ Página web enfocada en un publico gamer, donde podrán comprar los juegos más 
 ### video Youtube
 [Link video Youtube](https://www.youtube.com/watch?v=WdLVjBI2t-c)
 
-### Style Guide
+### Style Guide TheaGames:
 ![theagames_guidestyle](https://user-images.githubusercontent.com/94083791/180022360-710750fc-d5e0-42f7-b304-4af556db6ba8.png)
-# proyecto_final
 
 
 ### Dependencias
