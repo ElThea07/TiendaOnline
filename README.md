@@ -1,3 +1,8 @@
+### video
+```
+https://theagames.netlify.app/home
+```
+
 ![theagames_guidestyle](https://user-images.githubusercontent.com/94083791/180022360-710750fc-d5e0-42f7-b304-4af556db6ba8.png)
 # proyecto_final
 
