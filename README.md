@@ -14,7 +14,8 @@ Página web enfocada en un publico gamer, donde podrán comprar los juegos más 
 [Link video Youtube](https://www.youtube.com/watch?v=WdLVjBI2t-c)
 
 ### Style Guide TheaGames:
-![theagames_guidestyle](https://user-images.githubusercontent.com/94083791/180022360-710750fc-d5e0-42f7-b304-4af556db6ba8.png)
+![theagames_guidestyle](https://user-images.githubusercontent.com/94083791/180027817-a791316f-ab75-430a-a469-f2cd6391de17.png)
+
 
 
 ### Dependencias
