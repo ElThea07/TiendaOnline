@@ -4,7 +4,7 @@
 user admin:thea@test.com
 pass admin:asdfasdf
 ```
-##Descripción del Proyecto:
+Descripción del Proyecto:
 ```
 En TheaGames queremos que tu tienda de juegos sea una experiencia divertida y grata.
 
