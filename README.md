@@ -28,10 +28,9 @@ Netlify
 ```
 
 
-### video
-```
-https://www.youtube.com/watch?v=WdLVjBI2t-c
-```
+### video Youtube
+[Link video Youtube](https://www.youtube.com/watch?v=WdLVjBI2t-c)
+
 
 ## Project setup
 ```
