@@ -1,6 +1,6 @@
 ### Tienda Online
-```
 [Link TheaGames](https://theagames.netlify.app/home)
+```
 user admin:thea@test.com
 pass admin:asdfasdf
 ```
