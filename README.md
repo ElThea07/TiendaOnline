@@ -1,5 +1,10 @@
-# Tienda Online
-[Link TheaGames](https://theagames.netlify.app/home)
+# Tienda Online TheaGames
+[Link Tienda TheaGames](https://theagames.netlify.app/home)
+
+## Video / StyleGuide
+[Link Video De Tienda](https://www.youtube.com/watch?v=WdLVjBI2t-c)
+
+![theagames_guidestyle](https://user-images.githubusercontent.com/94083791/180027817-a791316f-ab75-430a-a469-f2cd6391de17.png)
 ```
 USUARIO:
 user:juan@test.com
@@ -26,11 +31,6 @@ Axios
 Firebase
 Netlify
 ```
-## Video / StyleGuide
-
-[Link Video](https://www.youtube.com/watch?v=WdLVjBI2t-c)
-
-![theagames_guidestyle](https://user-images.githubusercontent.com/94083791/180027817-a791316f-ab75-430a-a469-f2cd6391de17.png)
 
 ## Project setup
 ```
