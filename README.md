@@ -12,14 +12,9 @@ pass admin:asdfasdf
 ## Descripción del Proyecto:
 ```
 En TheaGames queremos que tu tienda de juegos sea una experiencia divertida y grata.
-
 Página web enfocada en un publico gamer, donde podrán comprar los juegos más destacados y recien estrenados, esta misma idea 
 de tienda online se puede replicar en muchos negocios de venta online.
 ```
-## Video
-
-[Link Video](https://www.youtube.com/watch?v=WdLVjBI2t-c)
-
 ## Dependencias
 ```
 Vuetifyjs
@@ -31,7 +26,9 @@ Axios
 Firebase
 Netlify
 ```
-##Style Guide TheaGames:
+## Video / StyleGuide
+
+[Link Video](https://www.youtube.com/watch?v=WdLVjBI2t-c)
 
 ![theagames_guidestyle](https://user-images.githubusercontent.com/94083791/180027817-a791316f-ab75-430a-a469-f2cd6391de17.png)
 
