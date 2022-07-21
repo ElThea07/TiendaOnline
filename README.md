@@ -12,10 +12,11 @@ pass admin:asdfasdf
 ```
 
 ## Video 
+[Video Tienda](https://www.youtube.com/watch?v=WdLVjBI2t-c)
 ```
 Video explicando funcionamiento de la tienda
 ```
-[Video Tienda](https://www.youtube.com/watch?v=WdLVjBI2t-c)
+
 ## Descripción del Proyecto:
 ```
 En TheaGames queremos que tu tienda de juegos sea una experiencia divertida y grata.
