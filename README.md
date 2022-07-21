@@ -17,10 +17,14 @@ Página web enfocada en un publico gamer, donde podrán comprar los juegos más 
 de tienda online se puede replicar en muchos negocios de venta online.
 ```
 ## Video
+```
 [Link Video](https://www.youtube.com/watch?v=WdLVjBI2t-c)
+```
 
 ##Style Guide TheaGames:
+```
 ![theagames_guidestyle](https://user-images.githubusercontent.com/94083791/180027817-a791316f-ab75-430a-a469-f2cd6391de17.png)
+```
 
 
 
