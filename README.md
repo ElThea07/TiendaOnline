@@ -2,7 +2,7 @@
 [Link TheaGames](https://theagames.netlify.app/home)
 ```
 USUARIO:
-user:juana@test.com
+user:juan@test.com
 pass:12341234
 
 ADMINISTRADOR:
