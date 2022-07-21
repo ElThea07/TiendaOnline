@@ -1,13 +1,13 @@
 # Tienda Online
 [Link TheaGames](https://theagames.netlify.app/home)
 ```
-ADMINISTRADOR:
-user admin:thea@test.com
-pass admin:asdfasdf
-
 USUARIO:
 user:juana@test.com
 pass:12341234
+
+ADMINISTRADOR:
+user admin:thea@test.com
+pass admin:asdfasdf
 ```
 ## Descripción del Proyecto:
 ```
