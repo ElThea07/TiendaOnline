@@ -13,7 +13,8 @@ pass admin:asdfasdf
 ```
 En TheaGames queremos que tu tienda de juegos sea una experiencia divertida y grata.
 
-Página web enfocada en un publico gamer, donde podrán comprar los juegos más destacados y recien estrenados, esta misma idea de tienda online se puede replicar en muchos negocios de venta online.
+Página web enfocada en un publico gamer, donde podrán comprar los juegos más destacados y recien estrenados, esta misma idea 
+de tienda online se puede replicar en muchos negocios de venta online.
 ```
 ## video Youtube
 [Link video Youtube](https://www.youtube.com/watch?v=WdLVjBI2t-c)
