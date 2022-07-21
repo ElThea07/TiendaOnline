@@ -20,8 +20,8 @@ Video explicando funcionamiento de la tienda
 ## Descripción del Proyecto:
 ```
 En TheaGames queremos que tu tienda de juegos sea una experiencia divertida y grata.
-Página web enfocada en un publico gamer, donde podrán comprar los juegos más destacados y recien estrenados, esta misma 
-idea de tienda online se puede replicar en muchos negocios de venta online.
+Página web enfocada en un publico gamer, donde podrán comprar los juegos más destacados y recien estrenados, este mismo modelo
+de tienda online se puede replicar dependiendo de la nececidad en muchos negocios de ventacde productos online.
 ```
 ## Dependencias
 ```
