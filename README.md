@@ -1,10 +1,6 @@
 # Tienda Online TheaGames
 [Link Tienda TheaGames](https://theagames.netlify.app/home)
 
-## Video / StyleGuide
-[Link Video De Tienda](https://www.youtube.com/watch?v=WdLVjBI2t-c)
-
-![theagames_guidestyle](https://user-images.githubusercontent.com/94083791/180027817-a791316f-ab75-430a-a469-f2cd6391de17.png)
 ```
 USUARIO:
 user:juan@test.com
@@ -14,6 +10,12 @@ ADMINISTRADOR:
 user admin:thea@test.com
 pass admin:asdfasdf
 ```
+
+## Video 
+```
+Video explicando funcionamiento de la tienda
+```
+[Video Tienda](https://www.youtube.com/watch?v=WdLVjBI2t-c)
 ## Descripción del Proyecto:
 ```
 En TheaGames queremos que tu tienda de juegos sea una experiencia divertida y grata.
@@ -31,6 +33,10 @@ Axios
 Firebase
 Netlify
 ```
+### StyleGuide
+![theagames_guidestyle](https://user-images.githubusercontent.com/94083791/180027817-a791316f-ab75-430a-a469-f2cd6391de17.png)
+
+
 
 ## Project setup
 ```
